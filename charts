@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Development Visualization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        iframe {
+            display: block;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        p {
+            color: #555;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Urban Development Visualizations</h1>
+    <div class="container">
+        <h2>Population Growth Comparison</h2>
+        <iframe src="files/interactive_population_growth.html" width="100%" height="500"></iframe>
+        <p>Interactive visualization showing the population growth of New York City, London, and Brasília from 1900 to 2020.</p>
+    </div>
+    <div class="container">
+        <h2>Skyscrapers and Iconic Buildings Comparison</h2>
+        <iframe src="files/interactive_skyscrapers_buildings.html" width="100%" height="500"></iframe>
+        <p>Interactive visualization comparing the number of skyscrapers and iconic buildings in New York City, London, and Brasília over time.</p>
+    </div>
+</body>
+</html>
